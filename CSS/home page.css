@@ -1,0 +1,184 @@
+.page{
+  background-color: rgb(46, 46, 46);
+}
+
+.logo{
+  width: 150px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+.searchbox{
+  background-color: rgb(229, 229, 229);
+  font-size: 20px;
+  padding: 10px;
+  border: solid;
+  border-width: 5px;
+  border-color: aqua;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: none;
+  margin: 20px;
+  margin-left:100px ;
+  margin-right: 0px;
+  vertical-align: top;
+  width: 500px;
+}
+.search_button{
+  background-color: rgb(229, 229, 229);
+  width: 23.8px;
+  padding: 10px;
+  border: solid;
+  border-width: 5px;
+  border-color: aqua;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+  margin: 20px;
+  margin-left: 0px;
+}
+.link_anchor{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  font: arial;
+  color: aqua;
+  margin: 35px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.sign_in_button{
+  vertical-align: top;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(121, 121, 121);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 25px;
+  margin: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: margin-left 0.15s, margin-right 0.15s, padding-left 0.15s, padding-right 0.15s;
+}
+.sign_in_button:hover{
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sign_in_button:active{
+  background-color: rgb(145, 145, 145);
+}
+.login_button{
+  vertical-align: top;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(29, 225, 255);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 25px;
+  margin: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: margin-left 0.15s, margin-right 0.15s, padding-left 0.15s, padding-right 0.15s;
+}
+.login_button:hover{
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.login_button:active{
+  background-color: rgb(140, 228, 255);
+}
+
+
+
+
+
+
+
+
+.cart{
+  font-size: 20px;
+  background-color: rgb(44, 248, 255);
+  padding: 23px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 110;
+  margin-right: 10px;
+  transition: background-color 0.15s;
+}
+.cart:hover{
+  background-color: rgb(0, 191, 255);
+}
+.cart:active{
+  opacity: 0.6;
+}
+
+.buy{
+  font-size: 20px;
+  background-color: rgb(0, 255, 72);
+  padding: 23px;
+  padding-left: 33.0125px;
+  padding-right: 33.0125px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 110;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.buy:hover{
+  background-color: rgb(65, 231, 112);
+}
+.buy:active{
+  opacity: 0.6;
+}
+.description{
+  font-style: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+
+.status{
+  color: rgb(0, 163, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.phone-ad{
+  display: inline-block;
+  font-style: arial;
+  width: 500px;
+  padding: 30px;
+  border: solid;
+  border-width: 1px;
+  margin: 50px;
+  margin-left: 100px;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+.phone-ad:hover{
+  box-shadow: -5px 5px 5px  rgba(0, 0, 0, 0.5),
+               5px -5px 5px  rgba(0, 0, 0, 0.5),
+               5px 5px 5px  rgba(0, 0, 0, 0.5),
+               -5px -5px 5px  rgba(0, 0, 0, 0.5);
+}
+.phone_img{
+  width: 500px;
+  height: 500px;
+}
