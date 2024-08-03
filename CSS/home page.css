@@ -2,10 +2,18 @@
   background-color: rgb(46, 46, 46);
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .logo{
   width: 150px;
   margin-top: 10px;
   vertical-align: top;
+}
+
+img{
+  max-width: 100%;
 }
 
 .searchbox{
